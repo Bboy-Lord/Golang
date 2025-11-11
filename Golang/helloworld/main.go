@@ -18,7 +18,7 @@ func multi(a int, b int) int {
 
 func div(a int, b int) int {
 	if b == 0 {
-		fmt.Println("Erreur: divion par zero impossible")
+		fmt.Println("Erreur: divion par zero")
 		return 0
 	}
 }
