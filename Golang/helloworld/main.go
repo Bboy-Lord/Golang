@@ -29,9 +29,9 @@ func main()  {
 
 	fmt.Println("Choisir le premier nombre entier :")
 	fmt.Scanln(&a)
-
+s
 	fmt.Println("Choisir l'opération (+, -, *, /) :")
-	fmt.Scanf(" %c", &op)
+	fmt.Scanln(" %c", &op)
 
 	fmt.Println("Choisir le deuxième nombre entier :")
 	fmt.Scanln(&b)
@@ -109,5 +109,6 @@ func main()  {
 	fmt.Println("Result: ", result)
 	*/
 	
+
 
 
